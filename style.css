@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{/*Degrade da pagina*/
+    background-image: linear-gradient(rgb(160, 27, 27), rgb(252, 250, 250));
+}
+
+.Cabeçalho-1{/*Cabeçalho*/
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Lista-links{
+    margin: 15pt;
+    position: relative;
+    left: 8%;
+    color: rgb(95, 23, 23);
+}
+
+.link-class{
+    color: black;
+    position: relative;
+}
+
+.link-professor{
+    color: black;
+}
+
+.Título-guido{
+    position: relative;
+    right: 17%;
+    font-size: 50px;
+}
+
+.escolas-um{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+
+.texto-um{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.texto-dois{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.texto-tres{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.texto-quatro{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.escola-imagem{
+    position: relative;
+    display: flex;
+    left: 70%;
+    border-radius: 10%;
+}
+
+.escola-div-conteudo{
+    max-width: 700px;/*colocar um limite na linha */
+    width: 80%;
+    position: relative;
+    left: 1%;
+}
+
+.subtitulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.titulo-escola{
+    font-size: 30px;
+}
+
+.subtitulo-dois{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.subtitulo-tres{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.subtitulo-quatro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.escada{
+    border-radius: 10%; 
+}
+
+.quadra{
+    border-radius: 10%;
+}
